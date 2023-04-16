@@ -12,3 +12,17 @@ Typograffiti is part of [The Argonaut Stack](https://argonaut-constellation.org/
 * LibC++ (for Text dependency)
 
 The demo program additionally requires SDL2.
+
+# Using Nix
+
+```
+$ NIXPKGS_ALLOW_BROKEN=1 nix-build -I nixpkgs=channel:nixos-unstable -A typograffiti
+$ result/bin/typograffiti
+```
+
+Currently, running the example in GHCi segfaults:
+
+```
+$ NIXPKGS_ALLOW_BROKEN=1 nix-shell -I nixpkgs=channel:nixos-unstable
+$ runghc -isrc/ app/Main.hs
+```
