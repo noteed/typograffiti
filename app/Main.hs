@@ -37,7 +37,7 @@ main = do
             "that marvelous masked mystery man",
             "known only as The Red Panda!",
             "",
-            "The Red Panda, masked crucader for justice, hides his secret identity",
+            "The Red Panda, masked crusader for justice, hides his secret identity",
             "as one of the city's wealthiest men in his neverending battle",
             "against crime & corruption. Only his trusty driver, Kit Baxter",
             "who joins him in the guise of The Flying Squirrel,",
